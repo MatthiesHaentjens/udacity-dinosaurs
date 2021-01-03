@@ -169,6 +169,7 @@ const addTiles = async() => {
 
 // On button click, prepare and display infographic
 document.getElementById("btn").onclick = function(event) {
+    event.preventDefault()
     addTiles();
     document.getElementById("dino-compare").style.display = "none";
 };

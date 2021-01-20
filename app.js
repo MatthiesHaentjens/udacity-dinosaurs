@@ -56,12 +56,12 @@ const createHumanObject = function() {
 // Create Dino Compare Method 1
 // NOTE: Weight in JSON file is in lbs, height in inches. 
 Dino.prototype.compareWeight = function(weight) {
-    if(this.weigth > weigth) {
-        this.fact.push(`I am heavier than you`);
-    } else if (this.weigth === weigth) {
-        this.fact.push(`Whoohoo we have the same weight`);
+    if(this.weight > weight) {
+        this.facts.push(`I am heavier than you`);
+    } else if (this.weight === weight) {
+        this.facts.push(`Whoohoo we have the same weight`);
     } else {
-        this.fact.push(`You are heavier than me`);
+        this.facts.push(`You are heavier than me`);
     }
 };
 
@@ -69,11 +69,11 @@ Dino.prototype.compareWeight = function(weight) {
 // NOTE: Weight in JSON file is in lbs, height in inches.
 Dino.prototype.compareHeight = function(height) {
     if(this.height > height) {
-        this.fact.push(`I am taller than you`);
+        this.facts.push(`I am taller than you`);
     } else if (this.height === height) {
-        this.fact.push(`Whoohoo we have the same height`);
+        this.facts.push(`Whoohoo we have the same height`);
     } else {
-        this.fact.push(`You are taller than me`);
+        this.facts.push(`You are taller than me`);
     }
 };
 

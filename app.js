@@ -56,9 +56,9 @@ const createHumanObject = function() {
 // Create Dino Compare Method 1
 // NOTE: Weight in JSON file is in lbs, height in inches. 
 Dino.prototype.compareWeight = function(weight) {
-    if(this.weight > weigth) {
+    if(this.weigth > weigth) {
         this.fact.push(`I am heavier than you`);
-    } else if (this.weight === weight) {
+    } else if (this.weigth === weigth) {
         this.fact.push(`Whoohoo we have the same weight`);
     } else {
         this.fact.push(`You are heavier than me`);
